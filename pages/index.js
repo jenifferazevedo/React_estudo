@@ -1,14 +1,10 @@
 import React from 'react';
-import { Layout } from 'antd';
+import styled from 'styled-components';
+import Body from '../components/Theme';
 
-const { Header, Footer, Sider, Content } = Layout;
 
 export default function index() {
     return (
-        <div>
-            <Layout>
-                <Header>Menu</Header>
-            </Layout>
-        </div>
+        <Body></Body>
     )
 }
