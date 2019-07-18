@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Icon } from '.\node_modules\antd\lib\icon';
+import { Icon } from 'antd';
 
 export default function Iconsmenu() {
     return (
-        <div className="icons-list">
+        <div>
             <Icon type="home" />
             <Icon type="setting" theme="filled" />
             <Icon type="smile" theme="outlined" />

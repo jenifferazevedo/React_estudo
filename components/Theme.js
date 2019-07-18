@@ -12,5 +12,3 @@ export default function Theme() {
         <Body></Body>
     )
 }
-
-export default Body;

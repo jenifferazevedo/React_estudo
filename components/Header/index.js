@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Layout } from 'antd';
-import { Iconsmenu } from './Iconsmenu';
+import {Layout} from 'antd';
+
+const { Header} = Layout;
 
 export default function Index() {
     return (
@@ -9,9 +10,9 @@ export default function Index() {
             <Layout>
                 <Header>
                     Oi
-                    <Iconsmenu />
                 </Header>
             </Layout>
         </div>
     )
 }
+
