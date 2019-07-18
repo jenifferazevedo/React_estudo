@@ -3,11 +3,14 @@ import styled from 'styled-components';
 
 
 const Body = styled.div`
+    height: 100vh;
     color: blue;
 `;
 
-export default function index() {
+export default function Theme() {
     return (
         <Body></Body>
     )
 }
+
+export default Body;

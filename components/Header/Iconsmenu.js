@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import { Icon } from 'antd';
+import { Icon } from '.\node_modules\antd\lib\icon';
 
 export default function Iconsmenu() {
     return (
