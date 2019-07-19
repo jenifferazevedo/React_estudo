@@ -1,18 +1,21 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Layout} from 'antd';
+import { Row, Col } from 'antd';
+import Iconsmenu from './Iconsmenu';
 
-const { Header} = Layout;
 
-export default function Index() {
+export default function Header() {
     return (
         <div>
-            <Layout>
-                <Header>
-                    Oi
-                </Header>
-            </Layout>
+            <Row>
+                <Col span={6}>
+                </Col>
+                <Col span={12}>
+                </Col>
+                <Col span={6}>
+                <Iconsmenu/>
+                </Col>
+            </Row>
         </div>
     )
 }
-

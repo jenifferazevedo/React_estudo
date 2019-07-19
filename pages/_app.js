@@ -4,7 +4,12 @@ import { ThemeProvider } from 'styled-components'
 
 const theme = {
   colors: {
-    primary: '#0070f3'
+    primary: 'blue',
+    secondary: 'white',
+    degrade: 'linear-gradient(180deg, rgba(0,89,255,1) 0%, rgba(0,89,255,1) 40%, rgba(255,255,255,1) 40%)'
+  },
+  tamanho: {
+    primary: '30px',
   }
 }
 
