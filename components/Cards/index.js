@@ -6,7 +6,7 @@ import { Row, Col } from 'antd';
 
 export default function Cards(props) {
     return (
-        <Row>
+        <Row gutter={24}>
             <Col span={8}>
                 <Card title="Titulo 1" subtitle="Sub Titulo" text="blablabla" />
             </Col>

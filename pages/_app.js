@@ -6,7 +6,8 @@ const theme = {
   colors: {
     primary: 'blue',
     secondary: 'white',
-    degrade: 'linear-gradient(180deg, rgba(0,89,255,1) 0%, rgba(0,89,255,1) 40%, rgba(255,255,255,1) 40%)'
+    tertiary: 'darkgrey',
+    degrade: 'linear-gradient(180deg, rgba(0,89,255,1) 0%, rgba(0,89,255,1) 280px, rgba(255,255,255,1) 280px)'
   },
   tamanho: {
     primary: '30px',

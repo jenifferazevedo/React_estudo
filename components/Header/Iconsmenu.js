@@ -4,19 +4,21 @@ import { Icon } from 'antd';
 
 const Icones = styled.a`
     .anticon, .anticon svg{
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
         fill: ${({theme}) => theme.colors.secondary};
+        margin: 0px 5px 0px 5px;
     }
 `
+
 
 export default function Iconsmenu() {
     return (
         <div>
-            <Icones href=""><Icon type="home" /></Icones>
-            <Icon type="setting" theme="filled" />
-            <Icon type="smile" theme="outlined" />
-            <Icon type="sync" spin />
+            <Icones href=""><Icon type="bell" /></Icones>
+            <Icones href=""><Icon type="setting" /></Icones>
+            <Icones href=""><Icon type="question-circle" /></Icones>
+            <Icones href=""><Icon type="export" /></Icones>
         </div>
     )
 }

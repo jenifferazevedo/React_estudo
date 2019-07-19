@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Row, Col } from 'antd';
 import Header from '../components/Header';
 import Cards from '../components/Cards';
-import { Row, Col } from 'antd';
+import H1 from '../components/Textostyle';
+import Perfil from '../components/Perfil';
 
 const Back = styled.div`
   background:  ${({ theme }) => theme.colors.degrade};
@@ -10,7 +12,7 @@ const Back = styled.div`
   padding: 0px 50px 0px 50px;
 `
 const Container = styled.div`
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 `
 
@@ -21,13 +23,16 @@ export default function index() {
                 <Row>
                     <Header />
                 </Row>
-                <Row type="flex" justify="center">
-                    <Col span={5}>
-
+                <Row>
+                    <Col span={6}>
+                        <Row>
+                            <Perfil />
+                        </Row>
                     </Col>
-                    <Col span={19}>
+                    <Col span={18}>
                         <Row>
                             <Col span={24}>
+                                <H1 texto="Welcome!" />
                                 <Cards />
                             </Col>
                         </Row>
