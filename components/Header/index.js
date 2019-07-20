@@ -8,9 +8,14 @@ import Iconsmenu from './Iconsmenu';
 
 
 const Head = styled.div`
-    margin-top: 20px;
+    width:100%;
+    height:80px;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 1;
+    background-color: ${({ theme }) => theme.colors.primary};
     .ant-col-5:nth-last-child(1) {
-        text-align: right;
+        text-align: center;
         padding-top: 15px;
     }
 `
@@ -20,7 +25,7 @@ export default function Header() {
         <Head>
             <Row align="middle">
                 <Col span={6}>
-                    <Logo logo="Logo"/>
+                    <Logo logo="Logo" />
                 </Col>
                 <Col span={5}>
                     <Breadcrumbs />

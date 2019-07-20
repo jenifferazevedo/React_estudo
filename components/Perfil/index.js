@@ -4,12 +4,16 @@ import Foto from './Foto';
 import Username from './Username';
 import Usertitle from './Usertitle';
 
+const Perfilbase = styled.div`
+    margin-top: 100px;
+`
+
 export default function index() {
     return (
-        <div>
+        <Perfilbase>
             <Foto />
             <Username username="Jiahsush Hiahihi" />
             <Usertitle usertitle="Hiahsi dhishda" />
-        </div>
+        </Perfilbase>
     )
 }

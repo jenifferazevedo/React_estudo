@@ -4,9 +4,9 @@ import { ThemeProvider } from 'styled-components'
 
 const theme = {
   colors: {
-    primary: 'blue',
+    primary: '#0059ff',
     secondary: 'white',
-    tertiary: 'darkgrey',
+    tertiary: '#eeeeee',
     degrade: 'linear-gradient(180deg, rgba(0,89,255,1) 0%, rgba(0,89,255,1) 280px, rgba(255,255,255,1) 280px)'
   },
   tamanho: {
