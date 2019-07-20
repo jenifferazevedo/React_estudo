@@ -6,7 +6,6 @@ const H1 = styled.h2`
     color: ${({ theme }) => theme.colors.secondary};
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
-    margin-top: 100px;
 `
 
 export default function Textostyle(props) {

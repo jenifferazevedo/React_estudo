@@ -15,6 +15,7 @@ const Container = styled.div`
     width: 90%;
     margin: 0 auto;
     z-index: 0;
+    margin-top: 80px;
 `
 
 export default function index() {
