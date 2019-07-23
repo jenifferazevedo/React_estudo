@@ -4,8 +4,8 @@ import { Buttonhome, Buttonuser, Buttonbest, Buttondocs, Buttonearn, Buttonhelp,
 import { Row, Col } from 'antd';
 
 const Basebar = styled.div`
-    width: 180px;
-    height: 355px;
+    width: 90%;
+    height: 100%;
     background-color: ${({ theme }) => theme.colors.tertiary};
     border-radius: 10px;
     margin: 30px auto;

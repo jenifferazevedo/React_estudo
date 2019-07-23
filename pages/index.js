@@ -36,7 +36,7 @@ export default function index() {
                     </Col>
                     <Col span={18}>
                         <Row>
-                            <Col span={24}>
+                                <Col span={24} lg={20}>
                                 <Row>
                                     <H1 texto="Welcome!" />
                                 </Row>

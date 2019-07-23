@@ -17,7 +17,7 @@ export default function Breadcrumbs() {
         <Breadcrum1>
             <Breadcrumb>
                 <Breadcrumb.Item>Student Dashboard</Breadcrumb.Item>
-                    <a href="">Home</a>
+                <Breadcrumb.Item><a href="">Home</a></Breadcrumb.Item>
             </Breadcrumb>
         </Breadcrum1>
     )

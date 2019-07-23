@@ -3,18 +3,18 @@ import styled from 'styled-components';
 import { Icon } from 'antd';
 
 const Botão = styled.button`
-    width: 55px;
-    height: 55px;
+    width: 35%;
+    height: 35%;
     background-color: ${({ theme }) => theme.colors.primary};
     padding: 10px;
     border-radius: 10px;
     color: ${({ theme }) => theme.colors.secondary};
     font-size: 0.75em;
-    word-break: break-word;
     margin-bottom: 10px;
     .anticon {
         font-size: 1.8em;
         margin: 0px 2px 4px 2px;
+        display: block;
     }
 `
 
